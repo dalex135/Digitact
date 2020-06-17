@@ -57,8 +57,7 @@ export const ApplicationStepsConfig: ApplicationStepsConfig = {
     formItemName: 'keyCompetencies',
   },
   [ApplicationStep.AdditionalInformation]: {
-    useForProgressCalculation: true,
-    formItemName: 'additionalInfo',
+    useForProgressCalculation: false,
   },
   [ApplicationStep.Submit]: {
     useForProgressCalculation: false,
